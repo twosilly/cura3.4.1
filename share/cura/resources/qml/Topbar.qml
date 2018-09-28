@@ -45,7 +45,8 @@ Rectangle
         id: catalog
         name:"cura"
     }
-
+/*
+TODO:这是一开始边侧栏的 logo
     Image
     {
         id: logo
@@ -60,6 +61,7 @@ Rectangle
         sourceSize.width: width;
         sourceSize.height: height;
     }
+    */
 
     Row
     {
@@ -77,7 +79,7 @@ Rectangle
 
             delegate: Button
             {
-                text: model.name
+                text: model.name //TODO: 这是软件切换 准备和监控的地方
                 checkable: true
                 checked: model.active
                 exclusiveGroup: topbarMenuGroup
