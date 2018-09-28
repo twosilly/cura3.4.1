@@ -71,6 +71,7 @@ TODO:这是一开始边侧栏的 logo
         spacing: UM.Theme.getSize("default_margin").width
 
         // The topbar is dynamically filled with all available stages
+        /*
         Repeater
         {
             id: stagesMenu
@@ -91,7 +92,7 @@ TODO:这是一开始边侧栏的 logo
                 property color overlayColor: "transparent"
                 property string overlayIconSource: ""
             }
-        }
+        }*/
 
         ExclusiveGroup { id: topbarMenuGroup }
     }

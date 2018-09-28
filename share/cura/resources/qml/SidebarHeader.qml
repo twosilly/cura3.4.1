@@ -370,6 +370,8 @@ Column
             rightMargin: UM.Theme.getSize("sidebar_margin").width
         }
 
+//TODO:设置界面 材料设置 窗口
+/*
         Label
         {
             id: materialLabel
@@ -415,9 +417,12 @@ Column
                 return Cura.ContainerManager.getContainerMetaDataEntry(activeExtruder.material.id, "compatible", "") == "True"
             }
         }
+        */
     }
 
+//TODO：新价格功能 变形体 好像是用来応打印头的 注释掉
     //Variant row
+    /*
     Item
     {
         id: variantRow
@@ -459,7 +464,7 @@ Column
             menu: NozzleMenu { extruderIndex: base.currentExtruderIndex }
         }
     }
-
+*/
     Rectangle
     {
         id: buildplateSeparator
@@ -567,7 +572,7 @@ Column
                 color: UM.Theme.getColor("material_compatibility_warning")
                 visible: !Cura.MachineManager.isCurrentSetupSupported || buildplateCompatibilityError || buildplateCompatibilityWarning
             }
-
+//TODO：检测兼容性 对方有可能想去掉先备注一下
             Label {
                 id: materialInfoLabel
                 wrapMode: Text.WordWrap

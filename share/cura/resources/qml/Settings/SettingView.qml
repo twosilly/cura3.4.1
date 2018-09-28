@@ -188,6 +188,8 @@ Item
             repeat: false
         }
 
+//! TODO: 参数设置页面的搜索界面
+
         TextField
         {
             id: filter;
@@ -251,6 +253,7 @@ Item
                 }
             }
         }
+
 
         MouseArea
         {

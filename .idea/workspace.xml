@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0327ca-543b-4bdb-aae0-837585d08a67" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/ModelChecker/ModelChecker.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/ModelChecker/ModelChecker.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/MonitorStage/MonitorMainView.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/MonitorStage/MonitorMainView.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/MonitorStage/MonitorMainView.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/MonitorStage/MonitorMainView.qmlc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/MonitorStage/MonitorStage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/MonitorStage/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/MonitorStage/plugin.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/PostProcessingPlugin/PostProcessingPlugin.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/PrepareStage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/PrepareStage/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/SimulationView/LayerSlider.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/SimulationView/LayerSlider.qmlc" afterDir="false" />
@@ -13,35 +16,19 @@
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/SimulationView/SimulationSliderLabel.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/SimulationView/SimulationSliderLabel.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/SimulationView/SimulationView.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/SimulationView/SimulationView.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/SliceInfoPlugin/MoreInfoWindow.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/SliceInfoPlugin/MoreInfoWindow.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/Toolbox.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/Toolbox.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxAuthorPage.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxAuthorPage.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxBackColumn.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxBackColumn.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxCompatibilityChart.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxCompatibilityChart.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailList.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailList.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailPage.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailPage.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailTile.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailTile.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailTileActions.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDetailTileActions.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDownloadsGrid.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDownloadsGrid.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDownloadsPage.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDownloadsPage.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDownloadsShowcase.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDownloadsShowcase.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxFooter.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxFooter.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxHeader.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxHeader.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxInstalledPage.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxInstalledPage.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxInstalledTile.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxInstalledTile.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxInstalledTileActions.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxInstalledTileActions.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxProgressButton.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxProgressButton.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxTabButton.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxTabButton.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/UM3NetworkPrinting/DiscoverUM3Action.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cura/plugins/UM3NetworkPrinting/UM3InfoComponents.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/MessageStack.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/MessageStack.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/ConfirmRemoveDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/ConfirmRemoveDialog.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/ManagementPage.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/ManagementPage.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/PreferencesDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/PreferencesDialog.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/RenameDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Preferences/RenameDialog.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Wizard.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/qml/UM/Wizard.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/uranium/plugins/Tools/RotateTool/RotateTool.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/uranium/plugins/Tools/RotateTool/RotateTool.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/uranium/plugins/Tools/TranslateTool/TranslateTool.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/lib/uranium/plugins/Tools/TranslateTool/TranslateTool.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/AboutDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/AboutDialog.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Actions.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Actions.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/AddMachineDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/AddMachineDialog.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/AskOpenAsProjectOrModelsDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/AskOpenAsProjectOrModelsDialog.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Cura.qml" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Cura.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Cura.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Cura.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/DiscardOrKeepProfileChangesDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/DiscardOrKeepProfileChangesDialog.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/EngineLog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/EngineLog.qmlc" afterDir="false" />
@@ -65,19 +52,12 @@
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Menus/RecentFilesMenu.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Menus/RecentFilesMenu.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Menus/SettingVisibilityPresetsMenu.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Menus/SettingVisibilityPresetsMenu.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Menus/ViewMenu.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Menus/ViewMenu.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/MonitorButton.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/MonitorButton.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/MonitorSidebar.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/MonitorSidebar.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/ObjectsList.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/ObjectsList.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/OpenFilesIncludingProjectsDialog.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/OpenFilesIncludingProjectsDialog.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Preferences/GeneralPage.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Preferences/GeneralPage.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Preferences/MachinesPage.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Preferences/MachinesPage.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Preferences/MaterialsPage.qml" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Preferences/MaterialsPage.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrepareSidebar.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrepareSidebar.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrintMonitor.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrintMonitor.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/ExtruderBox.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/ExtruderBox.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/HeatedBedBox.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/HeatedBedBox.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/ManualPrinterControl.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/ManualPrinterControl.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/MonitorItem.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/MonitorItem.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/MonitorSection.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/MonitorSection.qmlc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/OutputDeviceHeader.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/PrinterOutput/OutputDeviceHeader.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/SaveButton.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/SaveButton.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingCategory.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingCategory.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingCheckBox.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingCheckBox.qmlc" afterDir="false" />
@@ -86,9 +66,11 @@
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingItem.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingItem.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingTextField.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingTextField.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingUnknown.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingUnknown.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingView.qml" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingView.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingView.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingView.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/SidebarAdvanced.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/SidebarAdvanced.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/SidebarContents.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/SidebarContents.qmlc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/SidebarHeader.qml" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/SidebarHeader.qml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/SidebarHeader.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/SidebarHeader.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/SidebarSimple.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/SidebarSimple.qmlc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/cura/resources/qml/SidebarTooltip.qmlc" beforeDir="false" afterPath="$PROJECT_DIR$/share/cura/resources/qml/SidebarTooltip.qmlc" afterDir="false" />
@@ -110,17 +92,17 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="json" value="6" />
-          <entry key="po" value="1" />
-          <entry key="py" value="34" />
-          <entry key="qml" value="11" />
+          <entry key="json" value="9" />
+          <entry key="po" value="2" />
+          <entry key="py" value="40" />
+          <entry key="qml" value="22" />
           <entry key="service" value="1" />
           <entry key="shader" value="3" />
           <entry key="svg" value="29" />
@@ -129,10 +111,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="6" />
-          <entry key="Locale" value="1" />
-          <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="34" />
+          <entry key="JSON" value="9" />
+          <entry key="Locale" value="2" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Python" value="40" />
           <entry key="SVG" value="29" />
         </counts>
       </usages-collector>
@@ -140,13 +122,13 @@
         <counts>
           <entry key="json" value="20" />
           <entry key="py" value="6" />
-          <entry key="qml" value="130" />
+          <entry key="qml" value="377" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="20" />
-          <entry key="PLAIN_TEXT" value="130" />
+          <entry key="PLAIN_TEXT" value="377" />
           <entry key="Python" value="6" />
         </counts>
       </usages-collector>
@@ -155,44 +137,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/UM/PluginRegistry.py">
+        <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/cura/Settings/ExtrudersModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="622" selection-start-line="622" selection-end-line="622" />
+            <state relative-caret-position="262">
+              <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Toolbar.qml">
+        <entry file="file://$PROJECT_DIR$/share/cura/resources/definitions/ultimaker3.def.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1083" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/cura/resources/shaders/striped.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+            <state relative-caret-position="205">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/share/cura/resources/shaders/overhang.shader">
+        <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxCompatibilityChart.qml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+            <state relative-caret-position="158">
+              <caret line="105" column="28" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/src/AuthorsModel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/cura/resources/definitions/fdmextruder.def.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="221" column="22" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/cura/plugins/VersionUpgrade/VersionUpgrade21to22/Profile.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="341" column="64" selection-start-line="341" selection-start-column="6" selection-end-line="341" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Cura.qml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="201" column="77" selection-start-line="201" selection-start-column="77" selection-end-line="201" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/SidebarHeader.qml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="565" column="53" selection-start-line="565" selection-start-column="53" selection-end-line="565" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Topbar.qml">
+        <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingView.qml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+            <state relative-caret-position="385">
+              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
             </state>
           </provider>
         </entry>
@@ -214,6 +243,15 @@
       <find>topbar_header_tab_no_overlay</find>
       <find>topbar_button_icon</find>
       <find>Button</find>
+      <find>extension</find>
+      <find>Materials</find>
+      <find>&amp;View</find>
+      <find>材料</find>
+      <find>视图</find>
+      <find>print core</find>
+      <find>Print core</find>
+      <find>Search...</find>
+      <find>Material</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -223,10 +261,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/share/cura/resources/qml/AboutDialog.qml" />
-        <option value="$PROJECT_DIR$/lib/cura/plugins/PrepareStage/__init__.py" />
         <option value="$PROJECT_DIR$/share/cura/resources/themes/cura-light/styles.qml" />
-        <option value="$PROJECT_DIR$/share/cura/resources/qml/Topbar.qml" />
         <option value="$PROJECT_DIR$/share/cura/resources/themes/cura-light/theme.json" />
+        <option value="$PROJECT_DIR$/share/cura/resources/qml/Topbar.qml" />
+        <option value="$PROJECT_DIR$/lib/cura/plugins/PrepareStage/__init__.py" />
+        <option value="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxConfirmUninstallResetDialog.qml" />
+        <option value="$PROJECT_DIR$/share/cura/resources/qml/Preferences/MaterialsPage.qml" />
+        <option value="$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxCompatibilityChart.qml" />
+        <option value="$PROJECT_DIR$/share/cura/resources/qml/Cura.qml" />
+        <option value="$PROJECT_DIR$/share/cura/resources/qml/SidebarHeader.qml" />
+        <option value="$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingView.qml" />
       </list>
     </option>
   </component>
@@ -237,8 +281,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="794" />
-    <option name="y" value="116" />
+    <option name="x" value="23" />
+    <option name="y" value="362" />
     <option name="width" value="1940" />
     <option name="height" value="1100" />
   </component>
@@ -248,7 +292,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,6 +319,21 @@
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
               <item name="inst" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="cura" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inst" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="cura" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="PrepareStage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inst" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="python3.5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,6 +350,15 @@
               <item name="python3.5" type="462c0819:PsiDirectoryNode" />
               <item name="site-packages" type="462c0819:PsiDirectoryNode" />
               <item name="UM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inst" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="python3.5" type="462c0819:PsiDirectoryNode" />
+              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
+              <item name="UM" type="462c0819:PsiDirectoryNode" />
+              <item name="Settings" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="inst" type="b2602c69:ProjectViewProjectNode" />
@@ -346,6 +413,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,7 +487,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23081024" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -436,8 +504,8 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32925472" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="13" />
-      <window_info anchor="bottom" id="Python Console" order="14" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="找到" order="15" visible="true" weight="0.344098" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="14" visible="true" weight="0.298441" />
+      <window_info anchor="bottom" id="找到" order="15" weight="0.37750557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,106 +520,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/bundled_packages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/uranium/resources/bundled_packages.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/uranium/plugins/FileHandlers/STLWriter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/uranium/plugins/FileHandlers/STLWriter/STLWriter.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/systemd/system/charon.service">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/UM/View/View.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/UM/Controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="153" column="22" selection-start-line="153" selection-start-column="8" selection-end-line="153" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/UM3NetworkPrinting/ClusterUM3OutputDevice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="313" selection-start-line="313" selection-end-line="314" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/UM3NetworkPrinting/LegacyUM3OutputDevice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="244" column="57" selection-start-line="244" selection-start-column="57" selection-end-line="244" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/USBPrinting/USBPrinterOutputDevice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="128" column="54" selection-start-line="128" selection-start-column="54" selection-end-line="128" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/cura/CuraApplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="799" column="25" selection-start-line="799" selection-start-column="25" selection-end-line="799" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/UM/Qt/Bindings/ControllerProxy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Cura.qml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/PrepareStage/PrepareStage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/PrepareStage/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/uranium/resources/shaders/color.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-491" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/themes/cura-light/icons/application.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/themes/cura-light/icons/arrow_bottom.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/themes/cura-light/icons/arrow_left.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/themes/cura-light/icons/arrow_right.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/share/cura/resources/themes/cura-light/icons/arrow_top.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -635,32 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/UM/PluginRegistry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="622" selection-start-line="622" selection-end-line="622" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Toolbar.qml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1083" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/shaders/striped.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/cura/resources/shaders/overhang.shader">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/UM/Message.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -675,10 +617,170 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/UM/PluginRegistry.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11419">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Toolbar.qml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/shaders/striped.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/shaders/overhang.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Topbar.qml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+        <state relative-caret-position="49">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/i18n/zh_CN/cura.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="3164" column="16" selection-start-line="3164" selection-start-column="7" selection-end-line="3164" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxConfirmUninstallResetDialog.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="50" column="77" selection-start-line="50" selection-start-column="77" selection-end-line="50" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxDownloadsPage.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Preferences/MaterialsPage.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/PrepareStage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/PrepareStage/plugin.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxInstalledPage.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxHeader.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="38" selection-start-line="38" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/PrepareStage/PrepareStage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/PrepareSidebar.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="576" column="73" selection-start-line="576" selection-start-column="73" selection-end-line="576" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/cura/Settings/ExtrudersModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="196" column="16" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/definitions/ultimaker3.def.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/resources/qml/ToolboxCompatibilityChart.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="105" column="28" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/Toolbox/src/AuthorsModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/definitions/fdmextruder.def.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="221" column="22" selection-start-line="221" selection-start-column="22" selection-end-line="221" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cura/plugins/VersionUpgrade/VersionUpgrade21to22/Profile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python3.5/site-packages/cura/Settings/CuraContainerStack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="341" column="64" selection-start-line="341" selection-start-column="6" selection-end-line="341" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Cura.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="201" column="77" selection-start-line="201" selection-start-column="77" selection-end-line="201" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/SidebarHeader.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="565" column="53" selection-start-line="565" selection-start-column="53" selection-end-line="565" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/share/cura/resources/qml/Settings/SettingView.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
         </state>
       </provider>
     </entry>

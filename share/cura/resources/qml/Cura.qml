@@ -182,7 +182,8 @@ UM.MainWindow
                 MenuItem { action: Cura.Actions.unGroupObjects;}
             }
 
-            ViewMenu { title: catalog.i18nc("@title:menu", "&View") }
+            //TODO：菜单栏 视图
+            //ViewMenu { title: catalog.i18nc("@title:menu", "&View") }
 
             Menu
             {
@@ -273,7 +274,8 @@ UM.MainWindow
                     onObjectRemoved: extension_menu.removeItem(object)
                 }
             }
-
+            //TODO：工具箱-偏好设置-帮助菜单
+/*
             Menu
             {
                 id: plugin_menu
@@ -300,6 +302,7 @@ UM.MainWindow
                 MenuSeparator { }
                 MenuItem { action: Cura.Actions.about; }
             }
+            */
         }
 
         UM.SettingPropertyProvider
@@ -540,7 +543,7 @@ UM.MainWindow
             insertPage(1, catalog.i18nc("@title:tab","Settings"), Qt.resolvedUrl("Preferences/SettingVisibilityPage.qml"));
 
             insertPage(2, catalog.i18nc("@title:tab", "Printers"), Qt.resolvedUrl("Preferences/MachinesPage.qml"));
-
+            //TODO：设置页面的材料界面
             insertPage(3, catalog.i18nc("@title:tab", "Materials"), Qt.resolvedUrl("Preferences/MaterialsPage.qml"));
 
             insertPage(4, catalog.i18nc("@title:tab", "Profiles"), Qt.resolvedUrl("Preferences/ProfilesPage.qml"));

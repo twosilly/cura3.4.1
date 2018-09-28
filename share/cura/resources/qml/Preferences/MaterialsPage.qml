@@ -37,7 +37,7 @@ Item
         }
 
         font.pointSize: 18
-        text: catalog.i18nc("@title:tab", "Materials")
+        text: catalog.i18nc("@title:tab", "Materials")//TODO：材料设置界面
     }
 
     property var hasCurrentItem: materialListView.currentItem != null
