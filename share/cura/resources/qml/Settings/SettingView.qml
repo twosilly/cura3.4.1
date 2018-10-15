@@ -147,10 +147,11 @@ Item
         }
     }
 
+
     Rectangle
     {
         id: filterContainer
-        visible: true
+        visible: false //TODO: 搜索窗口，界面设置成隐藏
 
         border.width: Math.round(UM.Theme.getSize("default_lining").width)
         border.color:
@@ -287,6 +288,7 @@ Item
             }
         }
     }
+
 
     ScrollView
     {

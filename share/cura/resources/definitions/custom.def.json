@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "Custom FFF printer",
+    "name": "Custom FDM printer",
     "inherits": "fdmprinter",
     "metadata": {
         "visible": true,
