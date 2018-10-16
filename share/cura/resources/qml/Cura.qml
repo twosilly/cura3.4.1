@@ -240,7 +240,7 @@ UM.MainWindow
 
                 MenuItem { action: Cura.Actions.configureSettingVisibility }
             }
-
+//TODO：插件后处理插件
             Menu
             {
                 id: extension_menu
@@ -254,7 +254,7 @@ UM.MainWindow
                     Menu
                     {
                         id: sub_menu
-                        title: model.name;
+                        title: model.name + 14;
                         visible: actions != null
                         enabled: actions != null
                         Instantiator
@@ -262,15 +262,21 @@ UM.MainWindow
                             model: actions
                             MenuItem
                             {
-                                text: model.text
+                                text: model.text + 13
                                 onTriggered: extensions.model.subMenuTriggered(name, model.text)
                             }
                             onObjectAdded: sub_menu.insertItem(index, object)
                             onObjectRemoved: sub_menu.removeItem(object)
                         }
+
                     }
 
-                    onObjectAdded: extension_menu.insertItem(index, object)
+                    onObjectAdded: {
+
+                        extension_menu.insertItem(index, object)
+                        //console.log("SBSBBSBSBS");
+                        //UM.I18nCatalog{id: catalog; name:"SB"}
+                    }
                     onObjectRemoved: extension_menu.removeItem(object)
                 }
             }
@@ -367,12 +373,15 @@ UM.MainWindow
                 }
             }
 
+//TODO：openGL 侧边工具栏 打开文件按键
             Button
             {
                 id: openFileButton;
                 text: catalog.i18nc("@action:button","Open File");
                 iconSource: UM.Theme.getIcon("load")
-                style: UM.Theme.styles.tool_button
+                //style: UM.Theme.styles.tool_button
+                height:45
+                width:120
                 tooltip: ""
                 anchors
                 {

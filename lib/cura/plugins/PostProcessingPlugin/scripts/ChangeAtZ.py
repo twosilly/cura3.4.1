@@ -61,7 +61,7 @@ class ChangeAtZ(Script):
             {
                 "a_trigger":
                 {
-                    "label": "Trigger",
+                    "label": "触发器",
                     "description": "Trigger at height or at layer no.",
                     "type": "enum",
                     "options": {"height":"Height","layer_no":"Layer No."},
@@ -69,7 +69,7 @@ class ChangeAtZ(Script):
                 },
                 "b_targetZ":
                 {
-                    "label": "Change Height",
+                    "label": "改变高度",
                     "description": "Z height to change at",
                     "unit": "mm",
                     "type": "float",
@@ -81,7 +81,7 @@ class ChangeAtZ(Script):
                 },
                 "b_targetL":
                 {
-                    "label": "Change Layer",
+                    "label": "改变层",
                     "description": "Layer no. to change at",
                     "unit": "",
                     "type": "int",
@@ -92,7 +92,7 @@ class ChangeAtZ(Script):
                 },
                 "c_behavior":
                 {
-                    "label": "Behavior",
+                    "label": "行为",
                     "description": "Select behavior: Change value and keep it for the rest, Change value for single layer only",
                     "type": "enum",
                     "options": {"keep_value":"Keep value","single_layer":"Single Layer"},
@@ -111,7 +111,7 @@ class ChangeAtZ(Script):
                 },
                 "e1_Change_speed":
                 {
-                    "label": "Change Speed",
+                    "label": "改变速度",
                     "description": "Select if total speed (print and travel) has to be cahnged",
                     "type": "bool",
                     "default_value": false
@@ -149,7 +149,7 @@ class ChangeAtZ(Script):
                 },
                 "g1_Change_flowrate":
                 {
-                    "label": "Change Flow Rate",
+                    "label": "改变流量比例",
                     "description": "Select if flow rate has to be changed",
                     "type": "bool",
                     "default_value": false

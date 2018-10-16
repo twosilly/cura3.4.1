@@ -24,7 +24,7 @@ Item
         anchors.bottom: parent.bottom;
         anchors.left: parent.left;
         spacing: UM.Theme.getSize("button_lining").width
-
+//TODO: 侧边栏 工具按钮布局
         Repeater
         {
             id: repeat
@@ -35,11 +35,13 @@ Item
             Button
             {
                 text: model.name
+                width: childrenRect.width + 60
+                height:45
                 iconSource: (UM.Theme.getIcon(model.icon) != "") ? UM.Theme.getIcon(model.icon) : "file:///" + model.location + "/" + model.icon
                 checkable: true
                 checked: model.active
                 enabled: model.enabled && UM.Selection.hasSelection && UM.Controller.toolsEnabled
-                style: UM.Theme.styles.tool_button
+                //style: UM.Theme.styles.tool_text_button //TODO:关闭了样式
 
                 onCheckedChanged: {
                     if (checked) {
